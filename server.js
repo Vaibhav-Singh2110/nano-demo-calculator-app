@@ -11,7 +11,7 @@ const baseRouter = express.Router();
 
 baseRouter.get('/greeting', (req, res) => {
     return res.send('Hello World');
-    return res.send('');
+    
 });
 
 baseRouter.post('/add', (req, res) => {
